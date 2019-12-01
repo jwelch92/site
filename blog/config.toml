@@ -9,7 +9,7 @@ paginate = 5
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 3
+  showMenuItems = 4
   # show selector to switch language
   showLanguageSelector = false
   # set theme to full screen width
@@ -23,7 +23,7 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "jaredwelch.dev"
-    subtitle = "Personal site for Jared Welch"
+    subtitle = ""
     keywords = ""
     copyright = "© 2019 Jared Welch. All rights reserved."
     menuMore = "Show more"
@@ -47,3 +47,10 @@ paginate = 5
         identifier = "Blog"
         name = "Blog"
         url = "/"
+      [[languages.en.menu.main]]
+        identifier = "Github"
+        name = "Github"
+        url = "https://github.com/jwelch92"
+
+
+    
