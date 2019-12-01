@@ -31,7 +31,7 @@ paginate = 5
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "jaredwelch.dev"
+      logoText = "jw"
       logoHomeLink = "/"
 
     [languages.en.menu]
@@ -39,10 +39,10 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+      # [[languages.en.menu.main]]
+      #   identifier = "showcase"
+      #   name = "Showcase"
+      #   url = "/showcase"
       [[languages.en.menu.main]]
         identifier = "Blog"
         name = "Blog"
