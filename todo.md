@@ -1,5 +1,4 @@
-- spin up linode machine with tf
-- ansible-ize it with some basics
-- Build a very simple html site with no fancy stuff and no tracking
-- deploy it and get a workflow running for updating the site from plaintext markdown files
-- custom renderer? 
+- Write custom site gen
+- Deploy linode and set up DNS and lets encrypt
+- Set up GHA to build and deploy site bundle
+- 
