@@ -1,4 +1,0 @@
-- Write custom site gen
-- Deploy linode and set up DNS and lets encrypt
-- Set up GHA to build and deploy site bundle
-- 
