@@ -24,7 +24,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Jared Welch
     description: "Personal site"
-    keywords: [Blog]
+    keywords: [Blog, Technical]
     author: Me
     # author: ["Me", "You"] # multiple authors
     # TODO
