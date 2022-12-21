@@ -1,5 +1,15 @@
-# site
+# Site
 
-Built with [Hugo](https://gohugo.io/) and [Papermod](https://github.com/adityatelange/hugo-PaperMod) and hosted on [Cloudflare Pages](https://pages.cloudflare.com/).
+This site is built with Zola and uses the Hook theme. 
 
-[Papermod feature docs](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
+- https://www.getzola.org/
+- https://github.com/InputUsername/zola-hook
+
+It is deployed on Cloudflare Pages using the Github integration. The `main` branch is automatically built and deployed when new commits and pushed. 
+
+
+## TODO
+
+- [ ] build script for templating new blog posts
+- [ ] build script for templating TIL posts
+- [ ] Add feeds
