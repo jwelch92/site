@@ -1,3 +1,8 @@
++++
+title = "Dict items in Python 3"
+date = 2022-12-21
++++
+
 # TIL 12/21/2022
 
 I was working on writing a utility to extract arbitrarily nested fields from a dictionary and found a couple of posts about the "stack of iterators" pattern.
