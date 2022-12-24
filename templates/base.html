@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}" prefix="og: https://ogp.me/ns/website#">
+<head>
+    <!-- TODO head content from macros -->
+    <!--  TODO maybe use a classless CSS framework instead of hand writing my own CSS. maybe. Idk -->
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+
+</head>
+<body>
+    <h1>Hello world!</h1>
+    <main>
+        {%- block main %}
+        {% endblock -%}
+    </main>
+    <footer>
+        <!--  TODO footer with licenses and more info -->
+        {%- block extra_site_footer %}
+      {% endblock -%}
+    </footer>
+</body>
+</html>

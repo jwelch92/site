@@ -1,0 +1,25 @@
+# ports:
+#   - name: site
+#     port: 8080
+#     onOpen: open-browser
+
+# TODO
+# vscode:
+#   extensions:
+#     - learn-pack.learnpack-vscode
+
+tasks:
+  - name: Zola serve
+    init: >
+      # Pull Zola 0.14.0 which is the latest release supported by Cloudlfare pages
+      wget -qO- https://github.com/getzola/zola/releases/download/v0.14.0/zola-v0.14.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xvz -C /usr/local/bin 
+    command: zola serve -p 8080 -u / -i 0.0.0.0
+
+github:
+    prebuilds:
+        # enable for the master/default branch (defaults to true)
+        master: true
+        # enable for pull requests coming from this repo (defaults to true)
+        pullRequests: false
+        # add a "Review in Gitpod" button as a comment to pull requests (defaults to true)
+        addComment: false
