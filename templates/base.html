@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}" prefix="og: https://ogp.me/ns/website#">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- TODO move this to a macro -->
+    <meta name="description" content="{% block description %}{{ section.description | default(value=config.description) }}{% endblock description %}">
     <!-- TODO head content from macros -->
     <!--  TODO maybe use a classless CSS framework instead of hand writing my own CSS. maybe. Idk -->
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <header>
+        TODO add header content here with info about me.
+        Maybe add an about me page that's not rendered in the list? Not sure how to do that though. 
+    </header>
+    <!-- TODO add nav here? -->
     <main>
         {%- block main %}
         {% endblock -%}

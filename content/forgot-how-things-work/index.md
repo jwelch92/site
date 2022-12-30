@@ -1,6 +1,8 @@
 +++
 title = "I forgot how things work"
 date = 2022-12-22
+[taxonomies]
+tags = ["meta"]
 +++
 
 Or, how to redo your personal site (again) in an evening. 

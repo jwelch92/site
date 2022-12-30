@@ -1,9 +1,9 @@
 +++
 title = "Dict items in Python 3"
 date = 2022-12-21
+[taxonomies]
+tags = ["python", "til"]
 +++
-
-# TIL 12/21/2022
 
 I was working on writing a utility to extract arbitrarily nested fields from a dictionary and found a couple of posts about the "stack of iterators" pattern.
 This seemed like a good fit for the problem, and this post https://garethrees.org/2016/09/28/pattern/ even outlines this exact use case. 

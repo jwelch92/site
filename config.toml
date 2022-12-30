@@ -8,7 +8,12 @@ default_language = "en"
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 generate_feed = true
-# theme = ""
+
+taxonomies = [
+  { name = "tags", feed = true }
+]
+
+
 
 [markdown]
 # Whether to do syntax highlighting
@@ -17,8 +22,3 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-links = [
-    { title = "GitHub", href = "https://github.com/jwelch92" },
-    { title = "LinkedIn", href = "https://www.linkedin.com/in/jared-welch-89965b1a/" },
-    { title = "TIL", href = "/til" },
-]

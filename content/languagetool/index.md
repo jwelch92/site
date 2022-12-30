@@ -2,6 +2,8 @@
 title = "Language Tool"
 date =  2021-09-19T11:29:50-07:00
 description = "A short guide on how to self-host LanguageTool server on your Mac"
+[taxonomies]
+tags = ["writing", "howto"]
 +++
 
 # Self hosting LanguageTool

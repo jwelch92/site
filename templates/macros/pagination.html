@@ -1,0 +1,12 @@
+{% macro paginator_nav(paginator) %}
+<nav class="pagination">
+    {% if paginator.current_index > 1 %}
+    <a class="gohome" href="{{ paginator.first }}">Home</a>
+    {% endif %}
+    {% if paginator.previous %}
+        <a class="previous" href="{{ paginator.previous }}">‹ Previous</a>
+    {% endif %}
+    {% if paginator.next %}
+        <a class="next" href="{{ paginator.next }}">Next ›</a>
+    {% endif %}
+{% endmacro %}

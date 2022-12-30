@@ -1,8 +1,17 @@
+{% import "macros/article.html" as article %}
+{% import "macros/pagination.html" as pag_nav %}
+
 {% extends "base.html" -%}
 
 {%- block main %}
-  {%- for post in section.pages %}
-    <h2>{{ post.title }}</h2>
-    {{ post.content | safe }}
+  {%- for post in paginator.pages %}
+  <article>
+    {{ article::header(page=post) }}
+    {{ article::content(page=post) }}
+    {{ article::footer(page=post) }}
+  </article>
   {% endfor -%}
+  <nav class="pagination">
+    {{ pag_nav::paginator_nav(paginator=paginator) }}
+</nav>
 {% endblock -%}
